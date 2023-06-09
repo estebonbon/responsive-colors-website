@@ -38,11 +38,11 @@ header {
 }
 
 #column-2 {
-  background: #d5d5d5;
+  background: #c4c4c4;
 }
 
 #column-3 {
-  background: #d5d5d5;
+  background: #b7b7b7;
 }
 
 
@@ -73,13 +73,19 @@ footer {
 
   #column-3 {
     background-color: ivory;
+    width: 100%;
   }
 
   footer {
     background-color: peachpuff;
   }
+
+  .col-3 {
+    width: 50%;
+  }
   
 }
+
 
 
 /*---------- Desktops ----------*/
@@ -98,10 +104,15 @@ footer {
 
   #column-3 {
     background-color: wheat;
+    width: 33.3%
   }
 
   footer {
     background-color: paleturquoise;
+  }
+
+  .col-3 {
+    width: 33.3%;
   }
    
 }
